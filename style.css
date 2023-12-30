@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+} 
+:root {
+    --purple-bg: #290742;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+  }
+
+body{
+    background-color: var(--white) ;
+    color: var(--purple-bg);
+}
+
+body, ul, li,p{
+margin: 0px;
+padding: 0px;
+font-size: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+h1{
+    font-size: 120%;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+header{
+    background-color: var(--button-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:
+    space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.menu{
+    display: flex;
+}
+.menu li{
+ list-style: none;
+ margin-left: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--light-purple);
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: var(--button-bg);
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:
+    space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
